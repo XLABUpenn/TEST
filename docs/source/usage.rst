@@ -1,34 +1,26 @@
-Usage
-=====
+Welcome to XLAB's documentation!
+===================================
 
-.. _installation:
+Autonomous Go-Kart Project under Autoware Foundation
 
-Installation
-------------
+We have our documentation hosted on Read the Docs.
 
-To use Lumache, first install it using pip:
+.. image:: Go-Kart_overview.png
+   :width: 600
 
-.. code-block:: console
+Check out the :ref:`Mechatronics` section for further information related to Mechatronics of the project.
 
-   (.venv) $ pip install lumache
+.. note::
 
-Creating recipes
-----------------
+   This project is under active development.
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Contents
+--------
 
-.. autofunction:: lumache.get_random_ingredients
+.. toctree::
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   usage
+       Power Distribution Subsystem
+       Main Control Subsystem
+   api
+   
